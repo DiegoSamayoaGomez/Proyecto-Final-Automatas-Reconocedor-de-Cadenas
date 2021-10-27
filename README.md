@@ -28,3 +28,10 @@ Luego de abrir ```GUI.py```, ejecute el archivo en la terminal y se abrirá la i
 - El programa solo funciona con una única expresión regular:
 
 ```((x)|(x)+)|((Cv|CV)|(Vc|VC))|((Cv|CV)(cv|Cv|cV|CV)+)|((Vc|VC)(vc|Vc|vC|VC)+)```
+## Reglas para diseño de la ER
+-	Cadenas numéricas de una o más cifras.
+-	Cadenas de texto de longitud par.
+-	Cadenas de texto que inicien solo en mayúsculas.
+-	Cadenas de texto que no acepten consonantes y/o vocales seguidas.
+-	No debe aceptar cadenas combinadas entre texto y números.
+
