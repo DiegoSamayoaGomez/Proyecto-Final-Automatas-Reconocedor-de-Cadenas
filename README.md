@@ -25,4 +25,6 @@ Puede utilizar la interfaz de usuario GUI creada con la ayuda de la libreria Tki
 Luego de abrir ```GUI.py```, ejecute el archivo en la terminal y se abrirá la interfaz de usuario. Cuando la interfaz esté abierta podrá ingresar sus cadenas de prueba y verificar si son aceptadas o rechazadas.
 
 ## Limitaciones
-- El programa solo funciona con una única expresión regular.
+- El programa solo funciona con una única expresión regular:
+
+```((x)|(x)+)|((Cv|CV)|(Vc|VC))|((Cv|CV)(cv|Cv|cV|CV)+)|((Vc|VC)(vc|Vc|vC|VC)+)```
