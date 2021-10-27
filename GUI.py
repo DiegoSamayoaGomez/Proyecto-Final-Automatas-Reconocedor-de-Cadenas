@@ -11,7 +11,7 @@ def btn_clicked():
 def enviarDFA():
     canvas.itemconfig(Canv, text="\t"+arranca(entry1.get()))
 
-
+#Abrir imagen de AFND
 def abrirIMGNFA():
     global my_image2
     text_box.config(state='normal')
@@ -19,7 +19,8 @@ def abrirIMGNFA():
     text_box.config(state='disabled')
     my_image2 = PhotoImage(file=f"NFAIMG.png")
     text_box.image_create(END, image=my_image2)
-    
+
+#Abrir imagen de AFD    
 def abrirIMGDFA():
     global my_image
     text_box.config(state='normal')
@@ -28,6 +29,7 @@ def abrirIMGDFA():
     my_image = PhotoImage(file=f"DFAImg.png")
     text_box.image_create(END, image=my_image)
 
+#Abrir imagen de AFD-Min
 def abrirIMGMinDFA():
     global my_image
     text_box.config(state='normal')
@@ -35,7 +37,8 @@ def abrirIMGMinDFA():
     text_box.config(state='disabled')
     my_image = PhotoImage(file=f"MinDFA.png")
     text_box.image_create(END, image=my_image)
-   
+
+#Limpiar TextBox   
 def nuevo():   
     text_box.config(state='normal')
     text_box.delete('1.0', END)
@@ -57,7 +60,7 @@ def informacionGUI():
     ventanaInformacion.resizable(False, False)
     ventanaInformacion.mainloop()
 
-#Inicio de interfaz 2
+#Inicio de interfaz 
 window = Tk()
 window.title("Reconocedor de cadenas")
 
