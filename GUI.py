@@ -11,6 +11,8 @@ def btn_clicked():
 def enviarDFA():
     canvas.itemconfig(Canv, text="\t"+arranca(entry1.get()))
 
+print("xD")
+
 def abrirIMGNFA():
     global my_image2
     text_box.config(state='normal')
