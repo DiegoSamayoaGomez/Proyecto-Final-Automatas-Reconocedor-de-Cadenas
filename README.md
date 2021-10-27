@@ -1,7 +1,7 @@
 # Proyecto-Final-Automatas-Reconocedor-de-Cadenas
 
 ## Descripción
-Este es un programa en python para construir AFND, AFD, y AFD minimizados a partir de una expresión regular dada, creado como un proyecto de clase para autómtas y lenguajes formales. 
+Este es un programa en python para construir AFND, AFD, y AFD minimizados a partir de una expresión regular dada, creado como un proyecto de clase para autómatas y lenguajes formales. 
 
 El proyecto realizado se basa en el principio de las expresiones regulares para concordar y reconocer cadenas de caracteres ingresados por un usuario comparándolas con la expresión regular previamente programada. El programa fue desarrollado en ```Python 3.9```.
 
