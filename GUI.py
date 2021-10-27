@@ -56,7 +56,7 @@ def informacionGUI():
     ventanaInformacion.resizable(False, False)
     ventanaInformacion.mainloop()
 
-#Inicio de interfaz
+#Inicio de interfaz 2
 window = Tk()
 window.title("Reconocedor de cadenas")
 
