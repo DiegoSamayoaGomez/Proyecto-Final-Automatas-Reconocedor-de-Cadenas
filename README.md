@@ -25,6 +25,4 @@ Puede utilizar la interfaz de usuario GUI creada con la ayuda de la libreria Tki
 Luego de abrir ```GUI.py```, ejecute el archivo en la terminal y se abrirá la interfaz de usuario. Cuando la interfaz esté abierta podrá ingresar sus cadenas de prueba y verificar si son aceptadas o rechazadas.
 
 ## Limitaciones
-- El programa solo funciona con una única expresión regular
-- La impresión de errores no es completamente precisa
-
+- El programa solo funciona con una única expresión regular.
