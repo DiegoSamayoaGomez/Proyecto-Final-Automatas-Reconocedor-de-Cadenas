@@ -1,2 +1,2 @@
-# Proyecto-Final-Automatas-Reconocedor-de-Cadeanas
+# Proyecto-Final-Automatas-Reconocedor-de-Cadenas
 uwu
