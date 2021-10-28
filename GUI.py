@@ -1,7 +1,7 @@
 from tkinter import *
 from automata.fa.dfa import DFA
 from DFA import arranca
-from PIL import Image, ImageTk
+#from PIL import Image, ImageTk
 
 #Función para botones sin programar
 def btn_clicked():
